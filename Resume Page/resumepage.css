@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Modeseven";
+    src: url("../Misc/fonts/Modeseven-L3n5.ttf");
+}
+
+:root {
+    background-color: black;
+    color: red;
+    font-family: "Modeseven"
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#title {
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    background-color: #090909;
+    font-size: 20px;
+}
+
+
+#homeTab, #resumeTab, #projectsTab {
+    color: red;
+}
+
+
+
+
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    padding-left: 8%;
+    padding-right: 2%;
+}
+
+
+#workDesc {
+    list-style-type: ' - ';
+}
+
+#workDesc li {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 5px;
+    padding-bottom: 25px;
+    background-color: #090909;
+    font-size: 20px;
+}
+
+#contactInfo {
+    display: flex;
+    flex-flow: row wrap;
+    align-self: center;
+    justify-content: space-evenly;
+    width: 95%;
+}
+
+/* 
+Terminal Green: #4AF626
+Terminal Light Blue: #26F6D2
+Terminal Red: #F6264A
+Terminal Orange: #F66A26
+Terminal Dark Blue: #264AF6
+Terminal Pink: #D226F6
+*/

@@ -1,0 +1,3 @@
+Terminal-style website, red text with a glitch effect overlay on item hover. 
+Try an old computer startup s
+every page is a different accent color

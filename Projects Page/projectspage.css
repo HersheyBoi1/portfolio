@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Modeseven";
+    src: url("../Misc/fonts/Modeseven-L3n5.ttf");
+}
+
+:root {
+    background-color: black;
+    color: #264AF6;
+    font-family: "Modeseven"
+}
+
+#title {
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: baseline;
+    align-items: center;
+    align-self: center;
+}
+
+#menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    background-color: #090909;
+    font-size: 20px;
+}
+
+
+#homeTab, #resumeTab, #projectsTab {
+    color: #264AF6;
+}
+
+
+
+
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 90%;
+    padding: 1%;
+}
+
+#highlight {
+    color: red;
+}
+
+#projectName {
+    color: #264AF6;
+}
+
+#projectInfo {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#project1Image {
+    border: 2px solid black;
+    width: 95%;
+}
+
+#projectDesc {
+    width: 70%;
+    font-size: 18px;
+}
+
+
+
+
+
+
+footer {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 5px;
+    padding-bottom: 25px;
+    background-color: #090909;
+    font-size: 20px;
+}
+
+#contactInfo {
+    display: flex;
+    flex-flow: row wrap;
+    align-self: center;
+    justify-content: space-evenly;
+    width: 95%;
+}
+
+
+/* 
+    Terminal Green: #4AF626
+    Terminal Light Blue: #26F6D2
+    Terminal Red: #F6264A
+    Terminal Orange: #F66A26
+    Terminal Dark Blue: #264AF6
+    Terminal Pink: #D226F6
+*/

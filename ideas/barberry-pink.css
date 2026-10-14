@@ -1,0 +1,109 @@
+:root {
+--color-primary: #e3001c;
+--color-primary-contrast: #fff;
+--color-on-primary: #f8f8f8;
+--color-on-primary-contrast: #000;
+--color-primary-container: #ffccc4;
+--color-primary-container-contrast: #000;
+--color-on-primary-container: #190000;
+--color-on-primary-container-contrast: #fff;
+--color-secondary: #7a1d50;
+--color-secondary-contrast: #fff;
+--color-on-secondary: #ffc7e4;
+--color-on-secondary-contrast: #000;
+--color-secondary-container: #fcd0e2;
+--color-secondary-container-contrast: #000;
+--color-on-secondary-container: #160008;
+--color-on-secondary-container-contrast: #fff;
+--color-tertiary: #6f6f6f;
+--color-tertiary-contrast: #fff;
+--color-on-tertiary: #faf8f8;
+--color-on-tertiary-contrast: #000;
+--color-tertiary-container: #dedede;
+--color-tertiary-container-contrast: #000;
+--color-on-tertiary-container: #0a0406;
+--color-on-tertiary-container-contrast: #fff;
+--color-surface: #fbf7f6;
+--color-surface-contrast: #000;
+--color-on-surface: #211b1a;
+--color-on-surface-contrast: #fff;
+--color-on-surface-variant: #665f5e;
+--color-on-surface-variant-contrast: #fff;
+--color-container: #f4e6e5;
+--color-container-contrast: #000;
+--color-container-sunken: #e1d9d7;
+--color-container-sunken-contrast: #000;
+--color-container-overlay: #e5e1e0;
+--color-container-overlay-contrast: #000;
+--color-outline: #8c8887;
+--color-outline-contrast: #000;
+--color-outline-variant: #c5c1c0;
+--color-outline-variant-contrast: #000;
+--color-inverse-surface: #211c1b;
+--color-inverse-surface-contrast: #fff;
+--color-on-inverse-surface: #fcf7f6;
+--color-on-inverse-surface-contrast: #000;
+--color-error: #c53732;
+--color-error-contrast: #fff;
+--color-on-error: #fff1ed;
+--color-on-error-contrast: #000;
+--color-error-container: #ffcdc4;
+--color-error-container-contrast: #000;
+--color-on-error-container: #190000;
+--color-on-error-container-contrast: #fff;
+--color-error-text: #c53732;
+--color-error-text-contrast: #fff;
+--color-success: #019f6c;
+--color-success-contrast: #000;
+--color-on-success: #000a02;
+--color-on-success-contrast: #fff;
+--color-success-container: #bfead3;
+--color-success-container-contrast: #000;
+--color-on-success-container: #000a02;
+--color-on-success-container-contrast: #fff;
+--color-success-text: #008353;
+--color-success-text-contrast: #fff;
+--color-warning: #d4a232;
+--color-warning-contrast: #000;
+--color-on-warning: #0d0400;
+--color-on-warning-contrast: #fff;
+--color-warning-container: #f0dcb6;
+--color-warning-container-contrast: #000;
+--color-on-warning-container: #0d0400;
+--color-on-warning-container-contrast: #fff;
+--color-warning-text: #966800;
+--color-warning-text-contrast: #fff;
+--color-primary-hover: #e5142d;
+--color-primary-hover-contrast: #fff;
+--color-primary-pressed: #e61e36;
+--color-primary-pressed-contrast: #000;
+--color-on-disabled: #868686;
+--color-on-disabled-contrast: #000;
+--color-disabled-container: #e8e8e8;
+--color-disabled-container-contrast: #000;
+--color-scrim: #000;
+--color-scrim-contrast: #fff;
+--color-shadow: #000;
+--color-shadow-contrast: #fff;
+--light-angle: 0deg;
+--shadow-strength: 1;
+--shadow-color: #50494a;
+--highlight-color: #fff;
+--shadow-elevation-xs: calc(sin(var(--light-angle)) * -0.50px) calc(cos(var(--light-angle)) * 0.50px) 0.8px 0px rgb(from var(--shadow-color) r g b / calc(0.1 * var(--shadow-strength)));
+--shadow-elevation-low: inset 0 1px 0 rgb(from var(--highlight-color) r g b / calc(0.5 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -0.50px) calc(cos(var(--light-angle)) * 0.50px) 0.6px 0px rgb(from var(--shadow-color) r g b / calc(0.12 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -1.00px) calc(cos(var(--light-angle)) * 1.00px) 1.3px -0.6px rgb(from var(--shadow-color) r g b / calc(0.12 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -2.30px) calc(cos(var(--light-angle)) * 2.30px) 2.7px -1.3px rgb(from var(--shadow-color) r g b / calc(0.12 * var(--shadow-strength)));
+--shadow-elevation-medium: inset 0 1px 0 rgb(from var(--highlight-color) r g b / calc(0.5 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -0.50px) calc(cos(var(--light-angle)) * 0.50px) 0.6px 0px rgb(from var(--shadow-color) r g b / calc(0.12 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -1.80px) calc(cos(var(--light-angle)) * 1.80px) 2.1px -0.5px rgb(from var(--shadow-color) r g b / calc(0.12 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -4.50px) calc(cos(var(--light-angle)) * 4.50px) 5.2px -1px rgb(from var(--shadow-color) r g b / calc(0.12 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -9.00px) calc(cos(var(--light-angle)) * 9.00px) 10.5px -1.6px rgb(from var(--shadow-color) r g b / calc(0.12 * var(--shadow-strength)));
+--shadow-elevation-high: inset 0 1px 0 rgb(from var(--highlight-color) r g b / calc(0.5 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -0.50px) calc(cos(var(--light-angle)) * 0.50px) 0.6px 0px rgb(from var(--shadow-color) r g b / calc(0.11 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -3.00px) calc(cos(var(--light-angle)) * 3.00px) 3.5px -0.3px rgb(from var(--shadow-color) r g b / calc(0.11 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -6.00px) calc(cos(var(--light-angle)) * 6.00px) 6.8px -0.6px rgb(from var(--shadow-color) r g b / calc(0.11 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -10.50px) calc(cos(var(--light-angle)) * 10.50px) 12px -1px rgb(from var(--shadow-color) r g b / calc(0.11 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -17.00px) calc(cos(var(--light-angle)) * 17.00px) 19px -1.4px rgb(from var(--shadow-color) r g b / calc(0.11 * var(--shadow-strength))),
+    calc(sin(var(--light-angle)) * -26.00px) calc(cos(var(--light-angle)) * 26.00px) 29px -1.9px rgb(from var(--shadow-color) r g b / calc(0.11 * var(--shadow-strength)));
+}
