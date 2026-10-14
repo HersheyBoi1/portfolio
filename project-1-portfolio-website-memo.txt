@@ -58,13 +58,13 @@ PART 2: DESIGN (Answer ALL questions)
 8. What visual hierarchy will guide visitors?
 	Navigation Bar on every site to every other site
 9. How will consistency be maintained across pages?
-	
+	Each page will have a designated color, but all formatting remains consistent
 10. How will accessibility be considered (contrast, font size, readability)?
 	
 11. Will you use icons, images, or illustrations? Why?
-	
+	Yes, to help with identifying the different socials and to show off my project
 12. What portfolio websites inspired your design?
-	
+	Various tech-themed portfolio websites
 
 --------------------------------------------------
 PART 3: INTERACTIVITY (Answer ALL questions)
