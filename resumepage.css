@@ -5,8 +5,20 @@
 
 :root {
     background-color: black;
-    color: red;
+    color: #ff0000;
     font-family: "Modeseven"
+}
+
+html, body {
+    height: 100%;
+    width: 100%
+}
+
+#title {
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+  height: 50px;
 }
 
 header {
@@ -15,14 +27,9 @@ header {
     align-items: center;
 }
 
-#title {
-  font-size: 50px;
-  font-weight: 600;
-  font-style: normal;
-}
-
 #menu {
     display: flex;
+    flex: 1;
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
@@ -34,7 +41,7 @@ header {
 
 
 #homeTab, #resumeTab, #projectsTab {
-    color: red;
+    color: #ff0000;
 }
 
 
@@ -48,7 +55,6 @@ main {
     padding-left: 8%;
     padding-right: 2%;
 }
-
 
 #workDesc {
     list-style-type: ' - ';
@@ -64,7 +70,6 @@ main {
 
 footer {
     display: flex;
-    flex-shrink: 0;
     width: 100%;
     flex-flow: column nowrap;
     align-items: center;

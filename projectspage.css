@@ -9,22 +9,35 @@
     font-family: "Modeseven"
 }
 
+html, body {
+    height: 100%;
+    width: 100%
+}
+
 #title {
   font-size: 50px;
   font-weight: 600;
   font-style: normal;
+  height: 50px;
 }
 
-body {
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+/* body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: baseline;
     align-items: center;
     align-self: center;
 }
-
+ */
 #menu {
     display: flex;
+    flex: 1;
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
@@ -47,12 +60,9 @@ main {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    width: 90%;
     padding: 1%;
-}
-
-#highlight {
-    color: red;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 #projectName {
@@ -81,7 +91,6 @@ main {
 
 footer {
     display: flex;
-    flex-shrink: 0;
     width: 100%;
     flex-flow: column nowrap;
     align-items: center;

@@ -1,5 +1,3 @@
---git-ignore
-
 PERSONAL PORTFOLIO WEBSITE PROJECT
 
 Overview:
