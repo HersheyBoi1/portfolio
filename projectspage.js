@@ -13,7 +13,7 @@ hTab.addEventListener("mouseout", (event) => {
 
 
 resTab.addEventListener("mouseover", (event) => {
-    resTab.style.color = "red";
+    resTab.style.color = "#ff2222";
 });
 
 resTab.addEventListener("mouseout", (event) => {

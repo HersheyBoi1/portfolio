@@ -4,7 +4,7 @@ let resTab = document.querySelector("#resumeTab");
 let projTab = document.querySelector("#projectsTab");
 
 resTab.addEventListener("mouseover", (event) => {
-    resTab.style.color = "red";
+    resTab.style.color = "#ff2222";
 });
 
 resTab.addEventListener("mouseout", (event) => {

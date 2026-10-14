@@ -8,7 +8,7 @@ hTab.addEventListener("mouseover", (event) => {
 });
 
 hTab.addEventListener("mouseout", (event) => {
-    hTab.style.color = "red";
+    hTab.style.color = "#ff2222";
 }); 
 
 
@@ -17,7 +17,7 @@ projTab.addEventListener("mouseover", (event) => {
 });
 
 projTab.addEventListener("mouseout", (event) => {
-    projTab.style.color = "red";
+    projTab.style.color = "#ff2222";
 });
 
 //#endregion
